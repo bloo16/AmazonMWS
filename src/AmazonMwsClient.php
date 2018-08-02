@@ -87,7 +87,7 @@ class AmazonMwsClient
      *
      * @return \SimpleXMLElement
      */
-    public function send(string $action, string $versionUri, array $optionalParams = []): \SimpleXMLElement
+    public function send(string $action, string $versionUri, array $optionalParams = [])
     {
         $params = array_merge($optionalParams, $this->buildRequiredParams($action, $versionUri));
 
