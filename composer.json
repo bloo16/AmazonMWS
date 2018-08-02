@@ -1,5 +1,5 @@
 {
-  "name": "weengsapp/amazon-mws-client",
+  "name": "hello9/amazon-mws-client",
   "version": "1.0.1",
   "description": "PHP client for Amazon MWS API",
   "keywords": [
@@ -17,6 +17,11 @@
       "name": "Thiago Marini",
       "homepage": "https://github.com/thiagomarini",
       "role": "Developer"
+    },
+    {
+      "name": "Kis György",
+      "homepage": "https://github.com/bloo16",
+      "role": "Developer"
     }
   ],
   "require": {
@@ -28,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Weengs\\": "src/"
+      "Hello9\\": "src/"
     }
   }
 }
